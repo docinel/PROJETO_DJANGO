@@ -4,7 +4,7 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return render(request, 'home.thml')
+    return render(request, 'home.html')
 
 def contato(request):
     return HttpResponse('contato')
